@@ -44,7 +44,7 @@ contract KenyanWeb3Devs is ERC721Enumerable, Ownable {
       * Constructor for Crypto Devs takes in the baseURI to set _baseTokenURI for the collection.
       * It also initializes an instance of whitelist interface.
       */
-    constructor (string memory baseURI, address whitelistContract) ERC721("Kenyan Web3 Devs", "KWD") {
+    constructor (string memory baseURI, address whitelistContract) ERC721("Kenyan Blockchain Devs", "KBD") {
         _baseTokenURI = baseURI;
         whitelist = IWhitelist(whitelistContract);
     }
